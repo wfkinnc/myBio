@@ -1,0 +1,50 @@
+
+STEPS FOR SETTING UP GITHUB REPO AND PUSHING YOUR PROJECT
+
+---- from your browser
+
+1. Login to your github account
+
+2. Select the 'drop down' on the menu to 'create a new repository'
+
+3. On the create a new repository form ---
+
+> enter the name of your new repository (ie mybio)
+> enter a description
+
+Select Public
+
+DO NOT initialize this repository with readme, .gitignore or license
+
+We will create and push those files from your local machine
+
+4 Select 'Create repository'
+
+5 copy the url with the path to your github repo. It will be located in Quick setup section
+
+------ on your machine
+
+1. cd to the root of your project (ie - mybio)
+
+2. execute the command 
+
+git init
+
+3. execute the command 
+
+git remote add origin <paste your url from step 5 above here>
+
+4 execute the sequence of commands to stage your files, commit to your local repo and push to the remote repo
+
+git add .
+git commit -m "intializing my bio repo"
+git push origin master
+
+5. Caution! Note that git add has a spce and "." following it. It means add ALL the files from this repo to the staging area
+
+-------- refresh your browser and view your project on Gihub!!
+
+NOTE - In README.ms and CONTRIBUTING.md are links to an image and issues repository.
+
+As a Bonus, update those links with the correct urls -- pointing to the chat bot image in your repo and pointing to the issues tab for your repo issues
+
